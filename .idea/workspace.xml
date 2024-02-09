@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9468d86d-6123-4270-99c2-97cf0f5f8aaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/CheeseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Toiletry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/ToiletryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worksheet-05-design-patterns-part-I.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9468d86d-6123-4270-99c2-97cf0f5f8aaf" name="Default Changelist" comment="&quot;feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -62,9 +51,10 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/alexv/IdeaProjects/worksheet-07----creational-design-patterns-AlexeiVartoumian/src",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -146,6 +136,14 @@
       <workItem from="1612706774903" duration="18000" />
       <workItem from="1612706859528" duration="116000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;">
+      <created>1707496104636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707496104636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +159,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
