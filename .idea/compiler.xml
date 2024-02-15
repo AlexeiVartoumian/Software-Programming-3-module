@@ -4,5 +4,10 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Singleton" target="18" />
+      <module name="Singleton.main" target="18" />
+      <module name="Singleton.test" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>

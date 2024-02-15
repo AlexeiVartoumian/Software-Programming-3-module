@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9468d86d-6123-4270-99c2-97cf0f5f8aaf" name="Default Changelist" comment="&quot;feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;">
+    <list default="true" id="9468d86d-6123-4270-99c2-97cf0f5f8aaf" name="Default Changelist" comment="&quot;I want My GREEN CHECKBOX! feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Singleton.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Singleton.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Single/SingletonLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/worksheet-05-design-patterns-part-I/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/worksheet-05-design-patterns-part-I.iml" beforeDir="false" afterPath="$PROJECT_DIR$/worksheet-05-design-patterns-part-I.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +36,23 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/src/Singleton">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +78,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="1o9ld3umYrtcfGZbvIqlV7J8ktu" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -49,12 +94,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/alexv/IdeaProjects/worksheet-07----creational-design-patterns-AlexeiVartoumian/src",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "18",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/alexv/IdeaProjects/worksheet-07----creational-design-patterns-AlexeiVartoumian",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,6 +133,15 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,20 +176,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-18.0.2-corretto-18.0.2-4caba194b151-5720f15e" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,6 +199,7 @@
       <updated>1612706771610</updated>
       <workItem from="1612706774903" duration="18000" />
       <workItem from="1612706859528" duration="116000" />
+      <workItem from="1707927944243" duration="8779000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;">
       <created>1707496104636</created>
@@ -143,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707496104636</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;I want My GREEN CHECKBOX! feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;">
+      <created>1707497053036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707497053036</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;I want My GREEN CHECKBOX! feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;">
+      <created>1707497269570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707497269570</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +241,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;" />
+    <MESSAGE value="&quot;I want My GREEN CHECKBOX! feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;I want My GREEN CHECKBOX! feeble attempt at Creator pattern.&#10;Whichever type calls the factory is the type that is created&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
