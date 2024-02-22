@@ -1,16 +1,20 @@
 package decorator;
 
-public class GreenOlives implements Pizza {
+public class GreenOlives extends PizzaDecorator {
+
+  private  Pizza pizza;
   public GreenOlives(Pizza pizza) {
+    super(pizza);
+    this.pizza = pizza;
   }
 
   @Override
   public String getDesc() {
-    return null;
+    return pizza.getDesc() + " "  + this.getClass().getSimpleName() + "(5.47)";
   }
 
   @Override
   public double getPrice() {
-    return 0;
+    return pizza.getPrice() + 5.47;
   }
 }
