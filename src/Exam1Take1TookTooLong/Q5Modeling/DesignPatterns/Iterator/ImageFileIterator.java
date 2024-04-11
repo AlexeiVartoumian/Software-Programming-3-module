@@ -1,10 +1,11 @@
 package Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Iterator;
 
-import Q5Modeling.DesignPatterns.Composite.Document;
-import Q5Modeling.DesignPatterns.Composite.Folder;
-import Q5Modeling.DesignPatterns.Composite.LeafFile;
-import Q5Modeling.DesignPatterns.Visitor.Visitable;
-import Q5Modeling.DesignPatterns.Visitor.Visitor;
+
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Composite.Document;
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Composite.Folder;
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Composite.LeafFile;
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Visitor.Visitable;
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Visitor.Visitor;
 
 import java.util.ArrayList;
 import java.util.Objects;

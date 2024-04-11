@@ -1,9 +1,10 @@
 package Exam1Take1TookTooLong.Q5Modeling.DesignPatterns;
 
-import Q5Modeling.DesignPatterns.Composite.Folder;
-import Q5Modeling.DesignPatterns.Composite.LeafFile;
-import Q5Modeling.DesignPatterns.Iterator.TextFileIterator;
-import Q5Modeling.DesignPatterns.Visitor.StorageSpaceVisitor;
+
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Composite.Folder;
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Composite.LeafFile;
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Iterator.TextFileIterator;
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Visitor.StorageSpaceVisitor;
 
 public class Main {
 

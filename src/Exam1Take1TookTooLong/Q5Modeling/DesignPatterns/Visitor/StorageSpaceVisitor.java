@@ -1,8 +1,9 @@
 package Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Visitor;
 
-import Q5Modeling.DesignPatterns.Composite.LeafFile;
-import Q5Modeling.DesignPatterns.Iterator.ImageFileIterator;
-import Q5Modeling.DesignPatterns.Iterator.TextFileIterator;
+
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Composite.LeafFile;
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Iterator.ImageFileIterator;
+import Exam1Take1TookTooLong.Q5Modeling.DesignPatterns.Iterator.TextFileIterator;
 
 public class StorageSpaceVisitor implements Visitor{
 

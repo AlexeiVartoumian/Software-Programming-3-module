@@ -1,8 +1,8 @@
-package decorator;
+package worksheet09DesignPatterns.src.decorator;
 
 public class Meat extends PizzaDecorator {
-  private  Pizza pizza;
-  public Meat(Pizza pizza) {
+  private decorator.Pizza pizza;
+  public Meat(decorator.Pizza pizza) {
     super(pizza);
     this.pizza = pizza;
   }

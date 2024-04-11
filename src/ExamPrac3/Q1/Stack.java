@@ -30,13 +30,13 @@ public class Stack {
         }
     }
 
-//    public void pop() throws NoSuchElementException {
-//        try{
-//            stack.removeLast();
-//        }catch ( NoSuchElementException e){
-//            System.out.println(e +  " Tried to remove from empty list");
-//        }
-//    }
+    public void pop() throws NoSuchElementException {
+        try{
+            stack.removeLast();
+        }catch ( NoSuchElementException e){
+            System.out.println(e +  " Tried to remove from empty list");
+        }
+    }
     public Object peek(){
         if (!stack.isEmpty()){
             return stack.get(0);

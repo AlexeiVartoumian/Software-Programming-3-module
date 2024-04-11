@@ -20,6 +20,7 @@ public class OracleServer {
             ServerSocket serverSock = new ServerSocket(portnumber);
             while(true){
                 Socket clientSocket = serverSock.accept();
+
                 Thread.ofVirtual().start(() -> {
                     try(
                             PrintWriter thingy = new PrintWriter(clientSocket.getOutputStream(), true);

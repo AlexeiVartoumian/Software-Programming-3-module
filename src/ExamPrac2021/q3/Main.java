@@ -1,6 +1,10 @@
 package ExamPrac2021.q3;
 
-import q2.Employee;
+
+
+
+
+import ExamPrac2021.q2.Employee;
 
 import java.util.Arrays;
 import java.util.Collection;
