@@ -1,4 +1,4 @@
-package ExamPrac3.Q1;
+package ExamPrac3.Take1.Q1;
 
 import java.util.LinkedList;
 import java.util.List;

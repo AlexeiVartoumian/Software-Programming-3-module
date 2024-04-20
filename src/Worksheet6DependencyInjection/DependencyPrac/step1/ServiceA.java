@@ -2,9 +2,9 @@ package DependencyPrac.step1;
 
 public class ServiceA {
 
-    private ServiceB serviceB;
+    private DependencyPrac.step1.ServiceB serviceB;
 
-    public ServiceA(ServiceB b){
+    public ServiceA(DependencyPrac.step1.ServiceB b){
         this.serviceB = serviceB;
     }
     public static String jobA(){

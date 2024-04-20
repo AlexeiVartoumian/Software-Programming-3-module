@@ -1,4 +1,4 @@
-package ExamPrac3.Q2;
+package ExamPrac3.Take1.Q2;
 
 public class LinkedList {
 

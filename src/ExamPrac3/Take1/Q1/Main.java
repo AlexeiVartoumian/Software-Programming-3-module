@@ -1,4 +1,4 @@
-package ExamPrac3.Q1;
+package ExamPrac3.Take1.Q1;
 
 public class Main {
     public static void main(String[] args) {
